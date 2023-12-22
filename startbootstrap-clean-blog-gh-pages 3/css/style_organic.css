@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige; /* Beige background color */
+    color: charcoal; /* Charcoal font color */
+    /* Ensure the path to the image is correct */
+    background-image: url('path-to-your-background-image.jpg');
+}
+
+.common-nav a {
+    margin-right: 10px;
+    color: aqua;
+    text-decoration: none;
+}
+
+/* New style for positioning divs */
+.div-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the first specific div */
+.div-one {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    font-size: 18px;
+    color: darkslategray;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+/* Style for the second specific div */
+.div-two {
+    background-color: lightgreen;
+    padding: 15px;
+    margin: 20px;
+    border: 2px solid navy;
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* Style for the third specific div */
+.div-three {
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 30px;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.div-three:hover {
+    background-color: coral;
+}
+
+/* More CSS rules can follow here... */
